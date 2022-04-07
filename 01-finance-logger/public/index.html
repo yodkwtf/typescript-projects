@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Logger</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <header class="wrapper">
+    <h1>Finance Logger</h1>
+
+    <!-- output list -->
+    <ul class="item-list">
+      <p class="no-items">There are no items in the list...</p>
+    </ul>
+  </header>
+
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Type:</label>
+        <select id="type">
+          <option value="invoice">Invoice</option>
+          <option value="payment">Payment</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>To / From:</label>
+        <input type="text" id="from">
+      </div>
+      <div class="field">
+        <label>Details:</label>
+        <input type="text" id="details">
+      </div>
+      <div class="field">
+        <label>Amount (Rs):</label>
+        <input type="number" id="amount">
+      </div>
+      <button>Add</button>
+    </form>
+
+    <a href="https://www.yodkwtf.com" target="_blank">@yodkwtf</a>
+  </footer>
+
+  <script type="module" src='app.js'></script>
+</body>
+
+</html>

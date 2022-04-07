@@ -4,6 +4,6 @@ It consists a collection of my typescript projects. The projects didn't seem big
 
 For more info regarding a specific project, navigate to that project's directory and check out its readme file.
 
-## Easy navigation to all the projects:
+## Live Preview of all the Projects:
 
-<!-- 1. [TeamList Website](/01-teamlist-website) -->
+1. [Finance Logger](https://financelogger-dk.netlify.app/)
